@@ -61,11 +61,14 @@ After created project we can compile solution. This gives me exe files.
 MSBuild.exe build/CppHomework_4.sln
 ```
 
-All left is run compiled project. I didn't make executable to main project but you can run unit tests.
+All that's left is to run the compiled project. First things first, you need to enter the correct date. After you input the correct date, whenever you press 'n', you will get the next day; or if you want to see the previous date, press 'p'. If you want to close the program, you need to press 'c'."
 ```
-build/test/Debug/UnitTests.exe 
+build/Debug/CppHomework_4_main.exe
 ```
-
+Also you can run unit tests.
+```
+build/test/Debug/UnitTests.exe
+```
 # Unit Test Details
 
 I write unit tests for 4 functions.

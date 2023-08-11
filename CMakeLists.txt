@@ -19,4 +19,8 @@ set(Sources
 )
 
 add_library(CppHomework_4 STATIC ${Sources} ${Headers})
+add_executable(CppHomework_4_main main.cpp)
+target_link_libraries(CppHomework_4_main PUBLIC
+    CppHomework_4
+)
 add_subdirectory(test)
